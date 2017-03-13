@@ -1,0 +1,25 @@
+{
+  "name": "google-auth-totp",
+  "version": "1.0.0",
+  "description": "Google Authenticator TOTP algorithm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfiocco/google-auth-totp.git"
+  },
+  "keywords": [
+    "Google",
+    "Authenticator",
+    "TOTP",
+    "algorithm"
+  ],
+  "author": "gfiocco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfiocco/google-auth-totp/issues"
+  },
+  "homepage": "https://github.com/gfiocco/google-auth-totp#readme"
+}
