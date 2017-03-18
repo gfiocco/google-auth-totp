@@ -4,6 +4,10 @@ This Node.js API implements the same exact Time-base One-Time Passwords (TOTP) a
 
 I have decided to write this API in the simplest possible way so that you can easily understand the logic of it.
 
+<p align="center">
+  <img src="instructions.gif"/>
+</p>
+
 ## Core idea:
 
 The client has installed in her (Android or IPhone) phone the Google Authenticator app.
