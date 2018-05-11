@@ -12,8 +12,8 @@ const secondsLeft = 30 - Math.round(new Date() / 1000) % 30;
 console.log(`Your random secret is: ${secret} and the current code is ${gaTOTP.getOTP(secret)} and will expire in ${secondsLeft}s`);
 
 function refreshOTP() {
-	if (Math.round(new Date().getTime() / 1000) % 30 === 0) {
-		console.log(`New code ${gaTOTP.getOTP(secret)} will expire in 30s`);
-	}
+    if (Math.round(new Date().getTime() / 1000) % 30 === 0) {
+        console.log(`New code ${gaTOTP.getOTP(secret)} will expire in 30s`);
+    }
 }
 setInterval(() => refreshOTP(), 1000);

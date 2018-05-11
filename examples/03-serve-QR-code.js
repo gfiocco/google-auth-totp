@@ -14,11 +14,11 @@ const googleApisChartUrl = `https://chart.googleapis.com/chart?chs=${size}&chld=
  */
 var http = require('http');
 var server = http.createServer((req, res) => {
-	res.writeHead(301, {
-		'Cache-Control': 'no-cache', // prevent to reload old QR code when re-running
-		Location: googleApisChartUrl
-	});
-	res.end();
+    res.writeHead(301, {
+        'Cache-Control': 'no-cache', // prevent to reload old QR code when re-running
+        Location: googleApisChartUrl
+    });
+    res.end();
 });
 server.listen(3000);
 console.log('Open in your browser http://localhost:3000');

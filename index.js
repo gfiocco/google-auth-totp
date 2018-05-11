@@ -7,7 +7,7 @@
  *
  */
 module.exports = {
-	getOTP: require('./lib/getOTP'),
-	randomBase32: require('./lib/randomBase32'),
-	base32ToHex: require('./lib/base32ToHex'),
+    getOTP: require('./lib/getOTP'),
+    randomBase32: require('./lib/randomBase32'),
+    base32ToHex: require('./lib/base32ToHex'),
 }
