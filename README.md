@@ -1,4 +1,4 @@
-# google-auth-totp 0.x
+# google-auth-totp 1.0.1
 
 This Node.js API implements the same exact Time-base One-Time Passwords (TOTP) algorithm used by the Google Authenticator to generate two-factor authentication (2FA) tokens on your phone.
 
@@ -33,7 +33,7 @@ In your CLI:
 
     $ npm clone https://github.com/gfiocco/google-auth-totp.git
     $ cd google-auth-totp
-    $ node index
+    $ node examples/03-serve-QR-code.js
 
 Then navigate in your browser http://localhost:3000 to see the QR code.
 
