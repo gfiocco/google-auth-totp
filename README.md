@@ -31,7 +31,7 @@ At any point both client and server can authenticate with the same 6 digit code 
 
 In your CLI:
 
-    $ npm clone https://github.com/gfiocco/google-auth-totp.git
+    $ git clone https://github.com/gfiocco/google-auth-totp.git
     $ cd google-auth-totp
     $ node index
 
