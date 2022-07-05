@@ -1,6 +1,6 @@
 {
   "name": "google-auth-totp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Authenticator TOTP algorithm ",
   "main": "index.js",
   "scripts": {
